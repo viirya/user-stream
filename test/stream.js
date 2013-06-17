@@ -1,9 +1,10 @@
 var Stream = require('./../index');
 var stream = new Stream({
-    consumer_key: 'xxx',
-    consumer_secret: 'xxx',
-    access_token_key: 'xxx',
-    access_token_secret: 'xxx'
+    consumer_key: '',
+    consumer_secret: '',
+    access_token_key: '',
+    access_token_secret: '',
+    api_params: {'locations': "-180,-90,180,90"} 
 });
 
  // * - data
