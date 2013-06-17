@@ -1,6 +1,4 @@
-
 twitter-stream-oauth
-user-stream
 =============
 ### Version: 0.0.1 ###
 
