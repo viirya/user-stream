@@ -1,12 +1,14 @@
+
+twitter-stream-oauth
 user-stream
 =============
-### Version: 0.0.4 ###
+### Version: 0.0.1 ###
 
-Simple Node.js Twitter (API 1.1) user stream client (https://dev.twitter.com/docs/streaming-apis/streams/user)
+Simple Node.js Twitter (API 1.1) stream client (https://dev.twitter.com/docs/streaming-apis/streams/user) based on user-stream.
 
 Install
 -------
-```npm install user-stream```
+```npm install twitter-stream-oauth```
 
 Usage
 -------
@@ -16,7 +18,9 @@ var stream = new Stream({
     consumer_key: '',
     consumer_secret: '',
     access_token_key: '',
-    access_token_secret: ''
+    access_token_secret: '',
+    api: 'filter',
+    api_params: {'locations': "-180,-90,180,90"}    
 });
 
 //create stream
